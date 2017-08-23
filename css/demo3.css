@@ -1,0 +1,422 @@
+﻿*
+{
+	margin: 0px;
+	padding: 0px;
+}
+#big
+{
+	width:100%;
+	height:110px;
+	background-color:#ebb881;
+}
+
+.zi
+{
+	font-family:"Comic Sans MS", cursive;
+	margin-left:100px;
+
+	float:left;
+}
+#yuexi
+{
+	color:#F36;
+	font-style:italic;
+	font-size:34px;
+	float:left;
+	filter:glow(color=#ff0000, strength=2);
+	text-shadow:5px 5px 5px red;
+}
+#nongcun
+{
+	color:#03F;
+	font-size:25px;
+	filter:glow(color=#ff0000, strength=5);
+	text-shadow:5px 5px 5px #03F;
+}
+nav
+{
+	margin-top: -5%;
+}
+.nav1
+{
+	
+	display: block;
+	float: left;
+	margin-left:10%;	
+}
+ul li
+{
+	list-style: none;
+}
+ul li a
+{
+	text-decoration: none;
+	color: black;
+	
+}
+ul li a:hover
+{
+	color:blue;
+}
+#vain
+{
+	background-color:#dd8931;
+	width:100%;
+	height:10px;
+	margin-top:5%;
+}
+
+
+.shouye img
+{
+	width: 5.5%;
+	height: 5.5%;
+}
+.shouye h3
+{
+	text-align: center;
+	margin-top: -5%;	
+}
+
+
+#dlunbo
+{
+	width:30%;
+	height:60%;
+	position: absolute;
+	margin-top: 15%;
+	margin-left: 5%;
+	border-radius: 5%;
+	background-color: black;
+}
+.ig {
+	position:absolute;
+   
+}
+.ig img
+{
+	border-radius: 5%;
+}
+.tabs {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 85%;
+}
+
+.tab {
+    width: 20px;
+    height: 20px;
+    background-color:#ebb881;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    float: left;
+    margin:0px 15px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+#ti
+{
+	width: 40%;
+	height: 50%;
+	position: absolute;
+	margin-left: 45%;
+	margin-top:15%;
+	border-radius: 5%;
+	
+}
+#biaoti
+{
+	position: absolute;
+	color: grey;
+}
+#biaoti a:hover
+{
+	color: blue;
+}
+#biaoti a p
+{
+	position: absolute;
+	margin-top: 5%;
+}
+#biaoti p
+{
+	position: absolute;
+	margin-top: 40%;
+}
+
+#pricequ
+{
+	width: 100%;
+	position: absolute;
+	margin-top: 30%;
+	color: grey;
+	font-size: 20px;
+}
+#price
+{
+	position: absolute;
+}
+#paiming
+{
+	position: absolute;
+	margin-top: 6%;
+}
+#fuwu
+{
+	position: absolute;
+	margin-top: 12%;
+}
+.gouwuche1
+{
+	position: absolute;
+	margin-top: 28%;
+	margin-left:20%;
+}
+.gouwuche1 a {
+    width: 150px;
+    height: 36px;
+    background-color: #ff6a00;
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+    margin: 0px auto;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+
+
+
+#content
+{
+	position: absolute;
+	margin-top: 48%;
+}
+
+.content
+{
+	width: 48%;
+	height: 400px;
+	
+}
+.content a
+{
+	text-decoration: none;
+}
+
+.content img
+{
+	width:100%;
+	margin-top: 10px;
+	transition: all 0.3s;
+}
+.content img:hover
+{
+	transform: scale(1.2);
+}
+.content1
+{
+		border: solid 0.1px #ccc;
+		margin-left: 12%;
+}
+.head
+{
+	margin-left: 22%;
+	color: brown;
+}
+.price
+{
+	color: #f00;
+	font-size: 20px;
+	margin-top: 15%;
+	margin-left: 25%;
+	font-weight: 700;
+}
+.juti
+{
+	margin-top: 10%;
+	
+}
+.juti a
+{
+	color: grey;
+	font-size: 15px;
+}
+.juti a:hover
+{
+	color: blue;
+}
+#dcar {
+    width: 72px;
+    height: 63px;
+    background-image: url("../img/car.jpg");
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 86.6%;
+}
+
+.dnum {
+    width: 30px;
+    height: 30px;
+    background-color: #f00;
+    text-align:center;
+    line-height:30px;
+    font-size: 12px;
+    border-radius:100%;
+    color: #fff;
+}
+#center
+{
+	position: absolute;
+	margin-left: 20%;
+	margin-top: 50%;
+	color: grey;
+}
+
+#lubingsun
+{
+	margin-top:5%;
+}
+#h2
+{
+	position: absolute;
+	margin-top: 16%;
+}
+#jibenxinxi
+{
+	position: absolute;
+	margin-top:53%
+}
+.jibenxinxi1
+{
+	
+	float: left;
+}
+.jibenxinxi2
+{
+	
+	position: absolute;
+	margin-left: 120%;
+	margin-top: -5%;
+}
+#center1
+{
+	position: absolute;
+	margin-top: 140%;
+	margin-left: 20%;
+}
+#np
+{
+	position: absolute;
+	margin-top: 5%;
+	width: 830px;
+	color: grey;
+}
+#zuozhejianjie
+{
+	position: absolute;
+	margin-top: 36%;
+	color: grey;
+}
+#zuozhejianjie p
+{
+	position: absolute;
+	margin-top: 6%;
+	
+}
+#mulu
+{
+	position: absolute;
+	margin-top: 66%;
+	color: grey;
+}
+#mulu p
+{
+	margin-top: 5%;
+}
+#aside
+{
+	position: absolute;
+	margin-top: 60%;
+	margin-left: 85%;
+	width: 200px;
+	height: 200px;
+}
+#aside p
+{
+	font-size: 25px;
+	color: grey;
+	background-color: ghostwhite;
+}
+#myCanvas
+{
+    position:absolute;
+    margin-top:270%;
+    margin-left:3%;
+   }
+#last
+{
+	position: absolute;
+	margin-top: 204%;
+	margin-left: 22%;
+	height: 200px;
+}
+#last hr
+{
+	width:105%;
+}
+
+.last img:hover
+{
+	opacity:1;
+          transition:ease-out  0.2s;
+          -moz-transition:ease-out 0.2s;       /* Firefox */
+          -o-transition:ease-out 0.2s;         /* Opera */
+          -webkit-transition:ease-out 0.2s;    /* Safari 和 Chrome */
+         
+        transform:rotate(180deg) scale(0.6);
+         -moz-transform:rotate(180deg) scale(0.6);    /* Firefox */
+         -o-transform:rotate(180deg) scale(0.6);      /* Opera */
+         -webkit-transform:rotate(180deg) scale(0.6);
+}
+.last
+{
+	float: left;
+	margin: 12px;
+}
+.last a
+{
+	text-decoration: none;
+	color: grey;
+}
+.last a:hover
+{
+	color: blue;
+}
+#vain2
+{
+	background-color:#dd8931;
+	position: absolute;
+	width:100%;
+	height:10px;
+	margin-top:230%;
+}
+footer
+{
+	background-color:#ebb881;
+	width:100%;
+	height: 10%;
+	position: absolute;
+	margin-top:230.5%;
+	
+}
+#footer
+{
+	margin-left:45%;
+}
+
+
+
+

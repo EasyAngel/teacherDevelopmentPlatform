@@ -1,0 +1,272 @@
+﻿@charset "utf-8";
+	body
+{
+	padding:0px;
+	margin:0px;
+}
+#big
+{
+	width:100%;
+	height:110px;
+	background-color:#ebb881;
+}
+#vain
+{
+	background-color:#dd8931;
+	width:100%;
+	height:10px;
+}
+.zi
+{
+	font-family:"Comic Sans MS", cursive;
+	margin-left:100px;
+
+	float:left;
+}
+#yuexi
+{
+	color:#F36;
+	font-style:italic;
+	font-size:34px;
+	float:left;
+	filter:glow(color=#ff0000, strength=2);
+	text-shadow:5px 5px 5px red;
+}
+#nongcun
+{
+	color:#03F;
+	font-size:25px;
+	filter:glow(color=#000000, strength=5);
+	text-shadow:5px 5px 5px #03F;
+}
+
+
+#nav
+{
+	float:left;
+	display:inline;
+	margin-top:50px;
+	
+	-moz-column-count:5;
+	-webkit-column-count:5;
+	column-count:5;
+	
+	-moz-column-gap:0px;/*间距*/
+	-webkit-column-gap:0px;
+	column-gap:0px;
+	
+}
+.nav1
+{
+	width:180px;
+	height:39px;
+	color:black;
+	padding-top:20px;
+	cursor:pointer;
+}
+li
+{
+	list-style:none;
+}
+li a
+{
+	text-decoration:none;
+	color:black;
+	
+}
+.nav1:hover
+{
+	background-color:#f9ee9c;	
+}
+#dlunbo
+{
+	width:30%;
+	height:60%;
+	position: absolute;
+	margin-top: 5%;
+	margin-left: 5%;
+	border-radius: 5%;
+	background-color: black;
+}
+.ig {
+	position:absolute;
+   
+}
+.ig img
+{
+	border-radius: 5%;
+}
+.tabs {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 85%;
+}
+
+.tab {
+    width: 20px;
+    height: 20px;
+    background-color:#ebb881;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    float: left;
+    margin:0px 15px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+#ti
+{
+	width: 40%;
+	height: 50%;
+	position: absolute;
+	margin-left: 45%;
+	margin-top:8%;
+	border-radius: 5%;
+	
+}
+#biaoti
+{
+	position: absolute;
+	color: grey;
+}
+#biaoti a:hover
+{
+	color: blue;
+}
+#pricequ
+{
+	width: 100%;
+	position: absolute;
+	margin-top: 30%;
+	color: grey;
+	font-size: 20px;
+}
+#price
+{
+	position: absolute;
+}
+#paiming
+{
+	position: absolute;
+	margin-top: 6%;
+}
+#fuwu
+{
+	position: absolute;
+	margin-top: 12%;
+}
+.gouwuche
+{
+	position: absolute;
+	margin-top: 28%;
+	margin-left:20%;
+}
+.gouwuche a {
+    width: 150px;
+    height: 36px;
+    background-color: #ff6a00;
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+    margin: 0px auto;
+    border-radius: 12px;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+#dian
+{
+	position: absolute;
+	margin-top: 41%;
+	margin-left: 15px;
+}
+
+#dcon 
+{
+	position: absolute;
+	margin-top: 40%;
+	margin-left: 15%;
+    width: 85%;
+    height: 430px; 
+}
+.pic 
+{
+    width: 100px;
+    float: left;
+    
+}
+
+.txt1
+{
+	width: 188px;
+	height: 430px;
+}
+.pic2 
+{
+    background-image: url("../img/16.jpg");
+}
+.pic3 
+{
+    background-image: url("../img/17.jpg");
+}
+.pic4 
+{
+    background-image: url("../img/15.jpg");
+
+}
+.txt 
+{
+    width: 100px;
+    height: 429px;
+    background-color: grey;
+    opacity: 0.2;
+    cursor: pointer;
+}
+.txt p 
+{
+       color: #fff;
+       float: left;
+}
+.p1 
+{
+    font-size: 12px;
+    width: 12px;
+    margin: 20px;
+}
+.p2
+ {
+    font-size: 14px;
+    width: 14px;
+    margin-top: 20px;
+}
+#test
+{
+    position:relative;
+    margin-top:80%;
+ }
+#vain2
+{
+	background-color:#dd8931;
+	position:relative;
+	width:100%;
+	height:10px;
+	margin-top:40%;
+}
+footer
+{
+	background-color:#ebb881;
+	width:100%;
+	height: 20%;
+	position: absolute;
+	margin-top:0;
+	
+}
+#footer
+{
+	margin-left:35%;
+	
+
+}
+

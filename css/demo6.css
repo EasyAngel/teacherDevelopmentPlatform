@@ -1,0 +1,204 @@
+
+	body
+{
+	padding:0px;
+	margin:0px;
+
+}
+#big
+{
+	width:100%;
+	height:110px;
+	background-color:#ebb881;
+}
+
+.zi
+{
+	font-family:"Comic Sans MS", cursive;
+	margin-left:100px;
+
+	float:left;
+}
+#yuexi
+{
+	color:#F36;
+	font-style:italic;
+	font-size:34px;
+	float:left;
+	filter:glow(color=#ff0000, strength=2);
+	text-shadow:5px 5px 5px red;
+}
+#nongcun
+{
+	color:#03F;
+	font-size:25px;
+	filter:glow(color=#ff0000, strength=5);
+	text-shadow:5px 5px 5px #03F;
+}
+nav
+{
+	margin-top: -5%;
+}
+.nav1
+{
+	
+	display: block;
+	float: left;
+	margin-left:10%;	
+}
+ul li
+{
+	list-style: none;
+}
+ul li a
+{
+	text-decoration: none;
+	color: black;
+	
+}
+ul li a:hover
+{
+	color:blue;
+}
+#vain
+{
+	background-color:#dd8931;
+	width:100%;
+	height:10px;
+	margin-top:5%;
+}
+#luntan
+{
+	position: absolute;
+	margin-top: 5%;
+	margin-left: 14%;
+}
+#weizhi
+{
+	position: absolute;
+	margin-top: 8%;
+	margin-left: 14%;
+}
+#weizhi img
+{
+	width: 2%;
+	height: 2%;
+}
+#centercontent
+{
+	position: absolute;
+	width: 600px;
+	height:500px;
+	margin-left: 40%;
+	margin-top: 13%;  
+}
+.btn
+{
+	width: 60px;
+	height: 40px;
+	margin-top: 5%;
+	background-color: #90bb36;
+	border-radius: 20%;
+}
+
+.title
+{
+	margin: 1%;
+}
+.button
+{
+	position: absolute;
+	width: 700px;
+	height: 50px;
+	margin-left: 10%;
+    margin-top: -4%;
+}
+.back
+{
+	background-color: #90bb36;
+	float: left;
+	width: 70px;
+}
+.back a:hover
+{
+	text-decoration: none;
+}
+.btn1
+{
+	text-align: center;
+    width: 40px;
+    height: 20px;
+    float: left;
+    margin-left: .1%;
+    border: solid #90bb36 0.2px;
+}
+.invitation
+{
+	position: absolute;
+    width: 630px;
+    height: 700px;
+    margin-left: 0%;
+    margin-top: 11%;
+}
+.invitationhead
+{
+	position: absolute;
+	width: 650px;
+	height: 20px;
+	margin-top: -3%;
+	border: solid darkgrey 0.1px;
+}
+.invitation font
+{
+	margin-left: 10%;
+	
+}
+.invationbody
+{
+	position: relative;
+
+}
+
+.teachercontent
+{
+	position: relative;
+	margin-top: 3%;
+	
+}
+.teacherhead font
+{
+	font-size: 25px;
+	position: relative;
+	margin-left: -2%;
+}
+.teachercontent p
+{
+	position: relative;
+	width: 620px;
+	margin-left: 5%;
+	margin-top: 5%;
+	
+}
+#vain2
+{
+	position: absolute;
+	background-color:#dd8931;
+	width:100%;
+	height:10px;
+	margin-top:92.5%;
+	
+}
+footer
+{
+	position: absolute;
+	background-color:#ebb881;
+	width:100%;
+	margin-top:93%;
+	
+
+}
+#footer
+{
+	  margin-left: 48%;
+	
+}

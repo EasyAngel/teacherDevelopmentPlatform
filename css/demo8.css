@@ -1,0 +1,150 @@
+
+	body
+{
+	padding:0px;
+	margin:0px;
+}
+#big
+{
+	width:100%;
+	height:110px;
+	background-color:#ebb881;
+}
+
+.zi
+{
+	font-family:"Comic Sans MS", cursive;
+	margin-left:100px;
+
+	float:left;
+}
+#yuexi
+{
+	color:#F36;
+	font-style:italic;
+	font-size:34px;
+	float:left;
+	filter:glow(color=#ff0000, strength=2);
+	text-shadow:5px 5px 5px red;
+}
+#nongcun
+{
+	color:#03F;
+	font-size:25px;
+	filter:glow(color=#ff0000, strength=5);
+	text-shadow:5px 5px 5px #03F;
+}
+nav
+{
+	margin-top: -5%;
+}
+.nav1
+{
+	
+	display: block;
+	float: left;
+	margin-left:10%;	
+}
+ul li
+{
+	list-style: none;
+}
+ul li a
+{
+	text-decoration: none;
+	color: black;
+	
+}
+ul li a:hover
+{
+	color:blue;
+}
+#vain
+{
+	background-color:#dd8931;
+	width:100%;
+	height:10px;
+	margin-top:5%;
+}
+.contentpicture img
+{
+	position: absolute;
+	width: 1350px;
+    height: 310px;
+}
+.left
+{
+	position: absolute;
+	width: 50%;
+	margin-top: 40%;
+	margin-left:6%;
+	
+}
+.left p
+{
+	font-size: 18px;
+}
+.left .picture
+{
+	margin-top: 5%;
+}
+.left .picture font
+{
+	margin-left: 5%;
+}
+.erweima
+{
+	position: absolute;
+	margin-left: 65%;
+	margin-top: -10%;
+}
+.right
+{
+	position: absolute;
+	width: 50%;
+	margin-top: 45%;
+	margin-left:63%;
+}
+.name
+{
+	font-weight: bold;
+	margin-top: 5%;
+}
+.map
+{
+	position: absolute;
+	margin-top: 72%;
+	margin-left: 8.2%;
+}
+#allmap
+{
+	position: absolute;
+	width: 1080px;
+    height: 300px;
+	
+}
+
+#vain2
+{
+	position: absolute;
+	background-color:#dd8931;
+	width:100%;
+	height:10px;
+	margin-top:100.5%;
+	
+}
+footer
+{
+	position: absolute;
+	background-color:#ebb881;
+	width:100%;
+	margin-top:101%;
+	
+
+}
+#footer
+{
+	  margin-left: 48%;
+	
+}
+

@@ -1,0 +1,327 @@
+
+	body
+{
+	padding:0px;
+	margin:0px;
+}
+#big
+{
+	width:100%;
+	height:110px;
+	background-color:#ebb881;
+}
+
+.zi
+{
+	font-family:"Comic Sans MS", cursive;
+	margin-left:100px;
+
+	float:left;
+}
+#yuexi
+{
+	color:#F36;
+	font-style:italic;
+	font-size:34px;
+	float:left;
+	filter:glow(color=#ff0000, strength=2);
+	text-shadow:5px 5px 5px red;
+}
+#nongcun
+{
+	color:#03F;
+	font-size:25px;
+	filter:glow(color=#ff0000, strength=5);
+	text-shadow:5px 5px 5px #03F;
+}
+nav
+{
+	margin-top: -5%;
+}
+.nav1
+{
+	
+	display: block;
+	float: left;
+	margin-left:10%;	
+}
+ul li
+{
+	list-style: none;
+}
+ul li a
+{
+	text-decoration: none;
+	color: black;
+	
+}
+ul li a:hover
+{
+	color:blue;
+}
+#vain
+{
+	background-color:#dd8931;
+	width:100%;
+	height:10px;
+	margin-top:5%;
+}
+.content
+{
+	position: absolute;
+	margin-top: 16%;
+	width: 100%;
+
+}
+.content .img1
+{
+	width: 328px;
+    height: 356px;
+	background: url(../img/imgs.png) no-repeat -9px -9px;
+	float: left;
+	margin-left: 3%;
+	
+}
+.content .img2
+{
+	width: 328px;
+    height: 356px;
+	background: url(../img/imgs.png) no-repeat -9px -380px;
+	float: left;
+	margin-left: 10%;
+}
+.content .img3
+{
+	width: 328px;
+    height: 356px;
+	background: url(../img/imgs.png) no-repeat -9px -750px;
+	float: left;
+		margin-left: 10%;
+}
+.content h2
+{
+	position: relative;
+	margin-left: 15%;
+	margin-top: 40%;
+}
+.content p
+{
+	width: 250px;
+	margin-top: 5%;
+	margin-left: 15%;
+}
+.content button
+{
+	margin-top: 6%;
+	margin-left: 32%;
+	width: 100px;
+	height: 30px;
+	border-radius: 15%;
+}
+.team
+{
+	margin-top: 40%;
+	margin-left: 40%;
+	width: 350px;
+    height: 520px;
+	background-image: url(../img/imgs1.png);
+    background-repeat: no-repeat;
+	position: relative;
+    background-position: -355px -610px;
+}
+.sise
+{
+	position: relative;
+	float: left;
+	margin-left: 13%;
+	margin-top: 5%;
+	width: 500px;
+	height: 200px;
+}
+.sise font
+{
+	font-size: 18px;
+}
+.sise1
+{
+	position: absolute;
+	margin-top: -45%;
+	margin-left: 65%;
+	width: 500px;
+	height: 200px;
+}
+.sise1 font
+{
+	position: absolute;
+    margin-top: 1%;
+    margin-left: 34%;
+    width: 500px;
+    font-size: 18px;
+    height: 200px;
+}
+.sise2
+{
+	position: absolute;
+    margin-top: -26%;
+    margin-left: 60%;
+    width: 500px;
+    height: 200px;
+}
+.sise2 font
+{
+	position: absolute;
+    margin-top: 1%;
+    margin-left: 30%;
+    width: 510px;
+    font-size: 18px;
+    height: 200px;
+}
+.internet
+{
+	margin-top: 8%;
+	margin-left: 5%;
+	
+}
+.internet h2
+{
+	position: relative;
+    margin-left: 43%;
+    margin-top: -14%;
+	
+}
+.internet p
+{
+	width: 604px;
+    margin-top: 5%;
+    margin-left: 44%;
+    font-size: 16px;
+	
+}
+.computer
+{
+	background-image: url(../img/computer.png);
+	width: 100%;
+	height: 500px;
+	margin-top: 18%
+}
+.left
+{
+	text-align: center;
+    float: left;
+    margin-top: 10%;
+    margin-left: 14.5%;
+    width: 520px;
+    height: 300px;
+    padding: 66px 45px 86px;
+    border: 2px solid #C6DA96;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.title
+{
+	margin-top: -46%;
+	margin-left: -5%;
+	line-height: 52px;
+	color: #cce198;
+                     
+}
+.title p
+{
+	position: relative;
+	margin-left: 28%;
+}
+.right
+{
+	margin-left: 53%;
+    border: 2px solid #FE9B01;
+    padding: 65px 50px 0;
+    width: 503px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    margin-top: 10%;
+}
+.right .icon1
+{
+	background-image: url(../img/01.png);
+	position: absolute;
+	margin-left: -4%;
+	width: 66px;
+	height: 43px;
+}
+.right .icon2
+{
+	background-image: url(../img/02.png);
+	position: absolute;
+	margin-left: -4%;
+	margin-top: 18%;
+	width: 66px;
+	height: 43px;
+}
+.right .icon3
+{
+	background-image: url(../img/03.png);
+	position: absolute;
+	margin-top: 34%;
+	margin-left: -4%;
+	width: 66px;
+	height: 43px;
+}
+.right span
+{
+	font-size: 12px;
+    color: #ffffff;
+    margin-bottom: 45px;
+    height: 40px;
+}
+.right .span1
+{
+	width: 400px;
+	position: absolute;
+	margin-left: 11%;
+    float: right;
+    vertical-align: middle;
+    line-height: 20px;
+}
+.right .span2
+{
+	width: 400px;
+	position: absolute;
+	margin-left: 11%;
+	margin-top: 18%;
+    float: right;
+    vertical-align: middle;
+    line-height: 20px;
+}
+.right .span3
+{
+	width: 400px;
+	position: absolute;
+	margin-left: 11%;
+	margin-top: 34%;
+    float: right;
+    vertical-align: middle;
+    line-height: 20px;
+}
+#vain2
+{
+	position: absolute;
+	background-color:#dd8931;
+	width:100%;
+	height:10px;
+	margin-top:175.5%;
+	
+}
+footer
+{
+	position: absolute;
+	background-color:#ebb881;
+	width:100%;
+	margin-top:176%;
+	
+
+}
+#footer
+{
+	  margin-left: 48%;
+	
+}

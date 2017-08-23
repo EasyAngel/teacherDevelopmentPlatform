@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title></title>
+		<link href="css/demo8.css" type="text/css" rel="stylesheet" />
+		<link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap-theme.css" rel="stylesheet">
+        <script src="js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=QXk0IG0W9VQ3kB1vWdLWowM0G8TohVG7"></script>
+       
+
+
+	</head>
+	<body>
+		<div id="big">
+   <div class="zi">
+      <div id="yuexi"><font size="15">粤</font>西</div>
+      <div id="nongcun">农村</div> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font color="#03F" size="5">教师专业发展平台</font>
+   </div>
+</div>   
+
+   <nav>
+   	<ul>
+      <li><div class="nav1" style="text-align:center"><a href="首页.html">首页</a></div></li>
+      <li><div class="nav1" style="text-align:center"><a href="课程.html">课程</a></div></li>
+      <li><div class="nav1" style="text-align:center"><a href="经验交流.html">经验交流</a></div></li>
+      <li><div class="nav1" style="text-align:center"><a href="走进粤西平台.html">走进粤西平台</a></div></li>
+      <li><div class="nav1" style="text-align:center"><a href="联系我们.html">联系我们</a></div></li>
+    </ul>
+   </nav>
+<div id="vain">
+</div>
+
+ <div class="content">
+ 	<div class="contentpicture"><img src="img/content.jpg" /> </div>
+ 	<div class="left">
+ 		<div class="contentimg"><img src="img/content_.png" /></div>
+ 		<br />
+ 		<p>HELLO!</p>
+ 		<br />
+ 		<p>若您阅览以上信息之后，有合作意向，请您为我们留言或使用以下方式联系我们，我们 讲尽快给您回复，并为您提供最真诚的服务，谢谢您的支持。</p>
+ 		<div class="picture" style="margin-left: 1%;"><img src="img/phone.png"/><font>4000-000-000</font></div>
+ 		<div class="picture"><img src="img/envolop.png"/><font>contact@fkadjkhsf.co</font></div>
+ 		<div class="picture"><img src="img/location.png"/><font>XXX省XXX市XXX县XXX路XXX号</font></div>
+ 		<div class="erweima"><img src="img/erweima.gif" /> </div> 		
+ 	</div>
+ 	<div class="right">
+ 		<div class="name">姓名NAME<div class="input"><input type="text" style="width: 300px;height: 30px;"/></div></div>
+ 		<div class="name">电话PHONE<div class="input"><input type="text" style="width: 300px;height: 30px;"/></div></div>
+ 		<div class="name">信息 INFORMATION<div class="input"><input type="text" style="width: 300px;height: 30px;"/></div></div>
+ 	</div>
+ 	<div class="map">
+ 		<div id="allmap"></div>
+ </div>
+
+<div id="vain2">
+</div>
+<footer>
+<div id="footer">
+    <font size="3">&nbsp;&nbsp;平台首页|关于我们|联系我们<br/>
+                     @2016 123456789@qq.com 版权所有<br/>&nbsp;&nbsp;&nbsp;盗版必究|违者必查</font>
+</div>
+</footer>
+</body>
+</html>
+<script type="text/javascript">
+	// 百度地图API功能
+	var map = new BMap.Map("allmap");  
+	map.centerAndZoom(new BMap.Point(116.4035,39.915),8); 
+	setTimeout(function(){
+		map.setZoom(14);   
+	}, 2000);  //2秒后放大到14级
+	map.enableScrollWheelZoom(true);
+</script>

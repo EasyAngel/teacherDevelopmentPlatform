@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>登录</title>
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="js/login.js"></script>
+<!--<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>-->
+</script>
+<!--webfonts-->
+<link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!--//webfonts-->
+</head>
+<body onload="isload()">
+	<h1>欢迎登录粤西平台</h1>
+		<div class="app-cam">
+			<div class="cam"><img src="img/cam.png" class="img-responsive" alt="" /></div>
+			<form method="post" action="首页.html" onsubmit="return sendok();">
+				<input type="text" id="userid" class="text" value="Username" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Username';}" >
+				<input type="password" id="userpwd" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}">
+				<a href="首页.html"><div class="submit"><input type="submit" onclick="myFunction()" value="登录"></div></a>
+				<div class="clear"></div>
+			</form>
+			<h2>账号：admin   密码：admin</h2>
+		</div>
+
+</body>
+</html>
