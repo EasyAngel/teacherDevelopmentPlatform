@@ -27,3 +27,6 @@ function login1(){
 	document.location="登录.html";
 	}
 }
+function myFunction(){
+	location.href = '首页.html'
+}
